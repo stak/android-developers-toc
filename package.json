@@ -1,0 +1,22 @@
+{
+  "name": "android-developers-toc",
+  "version": "0.1.0",
+  "description": "Scrape https://developer.android.com/ to get plain table of contents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/stak/android-developers-toc.git"
+  },
+  "keywords": [
+    "android"
+  ],
+  "author": "Shutaro Takimoto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stak/android-developers-toc/issues"
+  },
+  "homepage": "https://github.com/stak/android-developers-toc#readme"
+}
