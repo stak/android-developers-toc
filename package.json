@@ -4,7 +4,7 @@
   "description": "Scrape https://developer.android.com/ to get plain table of contents",
   "main": "index.js",
   "bin": {
-    "android-developers-toc": "./cli.js"
+    "android-developers-toc": "bin/android-developers-toc.js"
   },
   "scripts": {
     "test": "mocha test/*.js"
