@@ -31,17 +31,18 @@ function getToc(categoryName) {
   }
 
   return new Promise((resolve, reject) => {
-    axios.get(url).then(res => {
-      if (res.status === 200) {
-        return res.data;
-      } else {
-        reject(new Error(`res.status is ${res.status}`));
-      }
-    })
-    .then(data => cheerio.load(data))
-    .then($ => dom2obj($))
-    .then(obj => resolve(obj))
-    .catch(err => reject(err));
+    axios.get(url)
+         .then(res => {
+          if (res.status === 200) {
+            return res.data;
+          } else {
+            reject(new Error(`res.status is ${res.status}`));
+          }
+        })
+        .then(data => cheerio.load(data))
+        .then($ => dom2obj($))
+        .then(obj => resolve(obj))
+        .catch(err => reject(err));
   });
 }
 
