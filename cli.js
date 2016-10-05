@@ -2,6 +2,7 @@
 const getToc = require('./index');
 const packageJson = require('./package.json');
 const urls = require('./url.json');
+const escape = require('escape-html');
 
 function addIndent(str, indent = 4) {
   return str.split('\n')
@@ -11,7 +12,7 @@ function addIndent(str, indent = 4) {
 
 function toMarkdown(toc) {
   return toc.map(item =>
-    `- [${item.title}](${item.url})` + (item.children ?
+    `- [${escape(item.title)}](${item.url})` + (item.children ?
                                        '\n' + addIndent(toMarkdown(item.children)) :
                                        '')).join('\n');
 }
