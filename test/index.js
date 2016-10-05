@@ -1,3 +1,4 @@
+'use strict';
 const getToc = require('../');
 const url = require('../url.json');
 const assert = require('assert');

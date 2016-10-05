@@ -1,3 +1,4 @@
+'use strict';
 const url = require('../url.json');
 const assert = require('assert');
 const exec = require('child_process').exec;

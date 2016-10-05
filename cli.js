@@ -1,6 +1,7 @@
+'use strict';
 const program = require('commander');
 const getToc = require('./index');
-const package = require('./package.json');
+const packageJson = require('./package.json');
 const urls = require('./url.json');
 
 function addIndent(str, indent = 4) {
@@ -16,7 +17,7 @@ function toMarkdown(toc) {
                                        '')).join('\n');
 }
 
-program.version(package.version)
+program.version(packageJson.version)
        .usage(`[options] <target: ${Object.keys(urls).join(', ')}>`)
        .description('Fetch and scrape https://developer.android.com/')
        .option('-t, --type [type]', 'Output format', /^(json|md)$/i, 'json')
