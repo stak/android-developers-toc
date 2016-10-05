@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/stak/android-developers-toc/issues"
   },
-  "homepage": "https://github.com/stak/android-developers-toc#readme"
+  "homepage": "https://github.com/stak/android-developers-toc#readme",
+  "dependencies": {
+    "axios": "^0.14.0",
+    "cheerio": "^0.22.0"
+  }
 }
