@@ -7,6 +7,7 @@
     "android-developers-toc": "bin/android-developers-toc.js"
   },
   "scripts": {
+    "start": "node update.js",
     "test": "mocha test/*.js"
   },
   "repository": {
