@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Scrape https://developer.android.com/ to get plain table of contents",
   "main": "index.js",
+  "bin": {
+    "android-developers-toc": "./cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +14,8 @@
     "url": "git+ssh://git@github.com/stak/android-developers-toc.git"
   },
   "keywords": [
-    "android"
+    "android",
+    "document"
   ],
   "author": "Shutaro Takimoto",
   "license": "MIT",
@@ -21,6 +25,7 @@
   "homepage": "https://github.com/stak/android-developers-toc#readme",
   "dependencies": {
     "axios": "^0.14.0",
-    "cheerio": "^0.22.0"
+    "cheerio": "^0.22.0",
+    "commander": "^2.9.0"
   }
 }
