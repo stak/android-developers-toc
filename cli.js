@@ -12,7 +12,7 @@ function addIndent(str, indent = 4) {
 
 function toMarkdown(toc) {
   return toc.map(item =>
-    `- [${escape(item.title)}](${item.url})` + (item.children ?
+    `- [${escape(item.title)}](${item.url})` + (item.children && item.children.length ?
                                        '\n' + addIndent(toMarkdown(item.children)) :
                                        '')).join('\n');
 }
