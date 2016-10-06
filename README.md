@@ -545,3 +545,13 @@
         - [Distributing to Specific Screens](https://developer.android.com/guide/practices/screens-distribution.html)
         - [Screen Compatibility Mode](https://developer.android.com/guide/practices/screen-compat-mode.html)
     - [Supporting Tablets and Handsets](https://developer.android.com/guide/practices/tablets-and-handsets.html)
+
+## LIBRARIES
+
+- [Support Library](https://developer.android.com/topic/libraries/support-library/index.html)
+    - [Features](https://developer.android.com/topic/libraries/support-library/features.html)
+    - [Setup](https://developer.android.com/topic/libraries/support-library/setup.html)
+    - [Revision History](https://developer.android.com/topic/libraries/support-library/revisions.html)
+- [Data Binding Library](https://developer.android.com/topic/libraries/data-binding/index.html)
+- [Testing Support Library](https://developer.android.com/topic/libraries/testing-support-library/index.html)
+    - [API Reference](https://developer.android.com/reference/android/support/test/package-summary.html)
