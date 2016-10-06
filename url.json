@@ -1,5 +1,6 @@
 {
     "training": "https://developer.android.com/training/index.html",
     "guide": "https://developer.android.com/guide/index.html",
-    "libraries": "https://developer.android.com/topic/libraries/support-library/index.html"
+    "libraries": "https://developer.android.com/topic/libraries/support-library/index.html",
+    "google services": "https://developer.android.com/google/index.html"
 }
